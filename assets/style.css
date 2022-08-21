@@ -1,0 +1,246 @@
+.menu_bar{
+    align-items: center;
+    justify-content:space-between ;
+}
+.navig{
+    position: fixed !important;
+    z-index: 2 !important;
+    background: #000;
+    /* height: 80px; */
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.logo h1{
+    font-weight:700;
+} 
+.nav-item{
+    /* background: rgb(29, 94, 125); */
+    padding: 0;
+}
+.nav-link{
+    padding: 20px 15px;
+    font-weight: 700;
+    /* transition: .5s; */
+}
+.nav-link:hover{
+    background:#2D95B4;;
+    color: #FFFFFF !important;
+}
+.hero-part{
+    background: url('../image/bnr.jpg');
+    height:800px;
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* opacity: .5; */
+}
+.hero-part-main{
+    background: #000 !important;
+}
+.hero-overlay{
+    height: 100%;
+    background: #000;
+    width: 100%;
+    opacity: .8;
+}
+.container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x:0;
+    --bs-gutter-y: 0;
+    /* width: 100%; */
+    padding-right:0px;
+    padding-left: 0;
+}
+.hero_text{
+    padding-top: 188px;
+    width: 70%;
+}
+.hero_text h1{
+    font-size: 80px;
+    color: #37B8DF;
+    font-weight: 900;
+}
+.hero_text p{
+    width: 70%;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.hero-text-mess{
+    border: 1px solid #37B8DF;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+.hero-text-mess:hover{
+    background: #37B8DF;
+    color: white;
+}
+.hero-text-mail{
+    margin-left: 50px;
+    font-size: 20px;
+    color:#FFFFFF;
+}
+.hero-text-mail:hovre{
+    color: #2D95B4;
+}
+.About-us{
+    background: #fff;
+}
+.about-b-bot{
+    border-bottom: 2px solid #37B8DF;
+    width: 15%;
+    margin: auto;
+}
+.card-b-bor{
+    border: 1px solid #37B8DF;
+    background:#37B8DF;
+    width: 15%;
+}
+.about-box-right{
+    height: 430px;
+}
+.card-text{
+    font-size: 20px;
+}
+.about-btn{
+    border-radius: 30px ! important;
+    border: 1px solid #37B8DF;
+}
+.btn-light:hover{
+    background:#37B8DF;
+}
+.service-b-bot{
+    border-bottom: 2px solid #37B8DF;
+    width: 20%;
+    margin: auto;
+    padding-top: 5px;
+}
+.portfolio-b-bot{
+    border-bottom: 2px solid #37B8DF;
+    width: 15%;
+    margin: auto;
+    padding-top: 5px;
+}
+.service-card-body{
+    position: relative;
+    transition: .7s;
+}
+.card-icon{
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    background: #37B8DF;
+    padding: 20px;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+.card-icon:hover{
+    background: #000;
+    color: #fff;
+}
+.service-card-body h4{
+    padding-top: 20%;
+}
+.service-card-body p{
+    padding-top: 5%;
+    font-size: 16px;
+}
+.service-card-body:hover{
+    background: #37B8DF;
+}
+.port-card-img{
+    transition: .7s;
+}
+.port-card-img img{
+    height: 350px;
+}
+.port-card-img:hover{
+    transform: scale(106% );
+    opacity: .7;
+}
+.portfolio-card{
+    border: none;
+}
+.more-info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #37B8DF;
+    padding: 10px 25px ;
+    border-radius: 20px;
+}
+.more-info a:hover{
+    background: #37B8DF;
+    color: #fff;
+}
+.blog_con{
+    padding-top:50px;
+}
+.blog_con h5{
+    color: #EF9561;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.blog_con h3{
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.blog_con p{
+    
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.blog_share_shape{
+   /* border-bottom: 2px solid #EF9561; */
+   width: 2%;
+   height: 1px;
+   border:1px solid #EF9561;
+   margin-top: 15px;
+
+}
+.travel_con_icon i{
+    padding: 0px 5px ;
+}
+.fa-con-position{
+    position: relative;
+    /* overflow: hidden; */
+}
+.fasion_con_img_overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: .6;
+    transition: .8s;
+}
+.fasion_con_img_overlay:hover{
+    background:transparent;
+}
+.row{
+    row-gap: 20px;
+}
+.mar-top{
+    margin-top: -90px;
+}
+.from-back-img{
+    background: url('https://img.freepik.com/free-photo/beautiful-tree-middle-field-covered-with-grass-with-tree-line-background_181624-29267.jpg?w=826&t=st=1661076979~exp=1661077579~hmac=eb5e95aa287001ef8f74b074a493ca8ddfa86fe0eb1e21954c5b89499dc6304a');
+    /* height: 500px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background{
+    border-radius: 0px 30px 0px 30px ;
+    opacity: .7;
+    color:white;
+    font-size: 18px;
+}
